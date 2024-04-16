@@ -1,0 +1,53 @@
+{
+  "name": "reconnaissance_vocale",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.0",
+    "@react-native-picker/picker": "^2.7.5",
+    "@react-navigation/drawer": "^6.6.15",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.9.26",
+    "@react-navigation/stack": "^6.3.21",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/mysql": "^2.15.26",
+    "@types/react": "^18.2.78",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "expo": "~50.0.7",
+    "expo-av": "^13.10.5",
+    "expo-checkbox": "^2.7.0",
+    "expo-constants": "~15.4.5",
+    "expo-document-picker": "~11.10.1",
+    "expo-linear-gradient": "~12.7.2",
+    "expo-linking": "~6.2.2",
+    "expo-router": "^3.4.8",
+    "expo-status-bar": "~1.11.1",
+    "express": "^4.19.2",
+    "firebase": "^10.8.0",
+    "mysql": "^2.18.1",
+    "papaparse": "^5.4.1",
+    "react": "18.2.0",
+    "react-native": "0.73.4",
+    "react-native-gesture-handler": "~2.14.0",
+    "react-native-paper": "^5.12.3",
+    "react-native-reanimated": "~3.6.2",
+    "react-native-safe-area-context": "4.8.2",
+    "react-native-screens": "~3.29.0",
+    "react-native-splash-screen": "^3.3.0",
+    "react-native-svg": "^15.1.0",
+    "react-native-vector-icons": "^10.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
